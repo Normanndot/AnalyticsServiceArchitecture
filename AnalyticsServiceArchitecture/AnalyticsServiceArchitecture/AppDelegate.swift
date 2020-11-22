@@ -14,6 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let analytics: Analytics = MyAnalytics.shared
+        let interactionEvent = HowToUseInteractionEvent()
+        let screenEvent = HowToUseScreenEvent()
+        analytics.track(interactionEvent.event(), trackers: [.tealium, .firebase])
+        analytics.track(screenEvent.event())
+
         return true
     }
 

@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8165833B256A38DA006EC60B /* ScreenEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165832D256A38D9006EC60B /* ScreenEvent.swift */; };
+		8165833C256A38DA006EC60B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165832E256A38D9006EC60B /* Event.swift */; };
+		8165833D256A38DA006EC60B /* MyAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165832F256A38D9006EC60B /* MyAnalytics.swift */; };
+		8165833E256A38DA006EC60B /* InteractionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658330256A38D9006EC60B /* InteractionEvent.swift */; };
+		8165833F256A38DA006EC60B /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658331256A38D9006EC60B /* Tracker.swift */; };
+		81658340256A38DA006EC60B /* TealiumTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658332256A38D9006EC60B /* TealiumTracker.swift */; };
+		81658341256A38DA006EC60B /* TrackerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658333256A38DA006EC60B /* TrackerFactory.swift */; };
+		81658342256A38DA006EC60B /* HowToUseInteractionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658334256A38DA006EC60B /* HowToUseInteractionEvent.swift */; };
+		81658343256A38DA006EC60B /* BaseEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658335256A38DA006EC60B /* BaseEvent.swift */; };
+		81658344256A38DA006EC60B /* UserInteractionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658336256A38DA006EC60B /* UserInteractionEvent.swift */; };
+		81658345256A38DA006EC60B /* HowToUseScreenEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658337256A38DA006EC60B /* HowToUseScreenEvent.swift */; };
+		81658346256A38DA006EC60B /* FirebaseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658338256A38DA006EC60B /* FirebaseTracker.swift */; };
+		81658347256A38DA006EC60B /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81658339256A38DA006EC60B /* Analytics.swift */; };
+		81658348256A38DA006EC60B /* TrackerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165833A256A38DA006EC60B /* TrackerType.swift */; };
 		819295D8254E8B1A00813E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819295D7254E8B1A00813E05 /* AppDelegate.swift */; };
 		819295DA254E8B1A00813E05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819295D9254E8B1A00813E05 /* SceneDelegate.swift */; };
 		819295DC254E8B1A00813E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819295DB254E8B1A00813E05 /* ViewController.swift */; };
 		819295DF254E8B1A00813E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819295DD254E8B1A00813E05 /* Main.storyboard */; };
 		819295E1254E8B1C00813E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819295E0254E8B1C00813E05 /* Assets.xcassets */; };
 		819295E4254E8B1C00813E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819295E2254E8B1C00813E05 /* LaunchScreen.storyboard */; };
-		819295EE254E8C8900813E05 /* AnalyticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819295ED254E8C8900813E05 /* AnalyticsEvent.swift */; };
-		819295F1254E8C9500813E05 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819295F0254E8C9500813E05 /* AnalyticsService.swift */; };
-		819295F4254E8CA000813E05 /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819295F3254E8CA000813E05 /* AnalyticsProvider.swift */; };
-		819295F7254E8CAB00813E05 /* FirebaseAnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819295F6254E8CAB00813E05 /* FirebaseAnalyticsProvider.swift */; };
-		819295FA254E8CB800813E05 /* AnalyticsEventMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819295F9254E8CB800813E05 /* AnalyticsEventMapper.swift */; };
-		819295FD254E8CC100813E05 /* SnakeCaseAnalyticsEventMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819295FC254E8CC100813E05 /* SnakeCaseAnalyticsEventMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8165832D256A38D9006EC60B /* ScreenEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenEvent.swift; sourceTree = "<group>"; };
+		8165832E256A38D9006EC60B /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		8165832F256A38D9006EC60B /* MyAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnalytics.swift; sourceTree = "<group>"; };
+		81658330256A38D9006EC60B /* InteractionEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractionEvent.swift; sourceTree = "<group>"; };
+		81658331256A38D9006EC60B /* Tracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		81658332256A38D9006EC60B /* TealiumTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TealiumTracker.swift; sourceTree = "<group>"; };
+		81658333256A38DA006EC60B /* TrackerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerFactory.swift; sourceTree = "<group>"; };
+		81658334256A38DA006EC60B /* HowToUseInteractionEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToUseInteractionEvent.swift; sourceTree = "<group>"; };
+		81658335256A38DA006EC60B /* BaseEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseEvent.swift; sourceTree = "<group>"; };
+		81658336256A38DA006EC60B /* UserInteractionEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInteractionEvent.swift; sourceTree = "<group>"; };
+		81658337256A38DA006EC60B /* HowToUseScreenEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToUseScreenEvent.swift; sourceTree = "<group>"; };
+		81658338256A38DA006EC60B /* FirebaseTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseTracker.swift; sourceTree = "<group>"; };
+		81658339256A38DA006EC60B /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		8165833A256A38DA006EC60B /* TrackerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerType.swift; sourceTree = "<group>"; };
 		819295D4254E8B1A00813E05 /* AnalyticsServiceArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalyticsServiceArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819295D7254E8B1A00813E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		819295D9254E8B1A00813E05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,12 +52,6 @@
 		819295E0254E8B1C00813E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819295E3254E8B1C00813E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		819295E5254E8B1C00813E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		819295ED254E8C8900813E05 /* AnalyticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEvent.swift; sourceTree = "<group>"; };
-		819295F0254E8C9500813E05 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
-		819295F3254E8CA000813E05 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
-		819295F6254E8CAB00813E05 /* FirebaseAnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticsProvider.swift; sourceTree = "<group>"; };
-		819295F9254E8CB800813E05 /* AnalyticsEventMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEventMapper.swift; sourceTree = "<group>"; };
-		819295FC254E8CC100813E05 /* SnakeCaseAnalyticsEventMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeCaseAnalyticsEventMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +99,20 @@
 		819295EC254E8C7D00813E05 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				819295ED254E8C8900813E05 /* AnalyticsEvent.swift */,
-				819295F9254E8CB800813E05 /* AnalyticsEventMapper.swift */,
-				819295FC254E8CC100813E05 /* SnakeCaseAnalyticsEventMapper.swift */,
-				819295F0254E8C9500813E05 /* AnalyticsService.swift */,
-				819295F3254E8CA000813E05 /* AnalyticsProvider.swift */,
-				819295F6254E8CAB00813E05 /* FirebaseAnalyticsProvider.swift */,
+				81658339256A38DA006EC60B /* Analytics.swift */,
+				81658335256A38DA006EC60B /* BaseEvent.swift */,
+				8165832E256A38D9006EC60B /* Event.swift */,
+				81658338256A38DA006EC60B /* FirebaseTracker.swift */,
+				81658334256A38DA006EC60B /* HowToUseInteractionEvent.swift */,
+				81658337256A38DA006EC60B /* HowToUseScreenEvent.swift */,
+				81658330256A38D9006EC60B /* InteractionEvent.swift */,
+				8165832F256A38D9006EC60B /* MyAnalytics.swift */,
+				8165832D256A38D9006EC60B /* ScreenEvent.swift */,
+				81658332256A38D9006EC60B /* TealiumTracker.swift */,
+				81658331256A38D9006EC60B /* Tracker.swift */,
+				81658333256A38DA006EC60B /* TrackerFactory.swift */,
+				8165833A256A38DA006EC60B /* TrackerType.swift */,
+				81658336256A38DA006EC60B /* UserInteractionEvent.swift */,
 			);
 			path = Analytics;
 			sourceTree = "<group>";
@@ -163,15 +187,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8165833D256A38DA006EC60B /* MyAnalytics.swift in Sources */,
+				81658342256A38DA006EC60B /* HowToUseInteractionEvent.swift in Sources */,
+				81658347256A38DA006EC60B /* Analytics.swift in Sources */,
+				81658348256A38DA006EC60B /* TrackerType.swift in Sources */,
+				8165833E256A38DA006EC60B /* InteractionEvent.swift in Sources */,
 				819295DC254E8B1A00813E05 /* ViewController.swift in Sources */,
-				819295FD254E8CC100813E05 /* SnakeCaseAnalyticsEventMapper.swift in Sources */,
-				819295F1254E8C9500813E05 /* AnalyticsService.swift in Sources */,
-				819295EE254E8C8900813E05 /* AnalyticsEvent.swift in Sources */,
+				81658345256A38DA006EC60B /* HowToUseScreenEvent.swift in Sources */,
+				81658340256A38DA006EC60B /* TealiumTracker.swift in Sources */,
+				81658344256A38DA006EC60B /* UserInteractionEvent.swift in Sources */,
 				819295D8254E8B1A00813E05 /* AppDelegate.swift in Sources */,
-				819295FA254E8CB800813E05 /* AnalyticsEventMapper.swift in Sources */,
-				819295F7254E8CAB00813E05 /* FirebaseAnalyticsProvider.swift in Sources */,
+				8165833F256A38DA006EC60B /* Tracker.swift in Sources */,
+				81658346256A38DA006EC60B /* FirebaseTracker.swift in Sources */,
+				81658343256A38DA006EC60B /* BaseEvent.swift in Sources */,
+				8165833B256A38DA006EC60B /* ScreenEvent.swift in Sources */,
 				819295DA254E8B1A00813E05 /* SceneDelegate.swift in Sources */,
-				819295F4254E8CA000813E05 /* AnalyticsProvider.swift in Sources */,
+				8165833C256A38DA006EC60B /* Event.swift in Sources */,
+				81658341256A38DA006EC60B /* TrackerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
